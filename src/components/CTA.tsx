@@ -37,15 +37,18 @@ export default function CTA() {
                             2026年4月ごろ 開催予定
                         </p>
                         <p className="text-sm tracking-widest text-retreat-white/60 mb-2 uppercase">Luxury Villa Included</p>
-                        <p className="text-4xl md:text-5xl font-serif">
-                            7.7<span className="text-2xl">万円</span>
-                            <span className="text-sm block text-white/50 mt-1 font-sans tracking-wide">(税込)</span>
-                        </p>
+                        <div className="flex flex-col items-center justify-center">
+                            <span className="text-retreat-gold/80 text-sm mb-1 tracking-wider">参加費（宿泊費込）</span>
+                            <p className="text-4xl md:text-5xl font-serif">
+                                7.7<span className="text-2xl">万円</span>
+                                <span className="text-sm text-white/50 ml-2 font-sans tracking-wide inline-block">(税込)</span>
+                            </p>
+                        </div>
                     </div>
 
                     <div>
                         <a
-                            href="https://tzvbxig2.autosns.app/line"
+                            href="https://lin.ee/nU6VjR0"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-[#06C755] hover:bg-[#05b34c] text-white px-12 py-4 rounded-sm font-medium text-lg tracking-widest transition-all hover:scale-105 shadow-[0_0_20px_rgba(6,199,85,0.3)]"

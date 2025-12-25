@@ -20,11 +20,11 @@ export default function Target() {
                         <h3 className="text-2xl font-serif">こんな方へ</h3>
                     </div>
                     <p className="text-retreat-white/60 mb-8 leading-relaxed">
-                        日々決断を迫られるリーダー、クリエイター、ハードワーカーへ。<br />
+                        AIやテクノロジーの進化に追われ、情報の海で溺れかけている 20代・30代の男性リーダー・クリエイターへ。<br />
                         「最近、集中力が続かない」「情報疲れしている」「自分をアップデートしたい」と感じている方。
                     </p>
                     <ul className="space-y-4">
-                        {["20-30代の起業家・フリーランス", "情報過多による脳疲労を感じている", "短期間で劇的なリセットを求めている"].map((item, i) => (
+                        {["AIとの共存・競争に疲れを感じている", "常にデジタルに接続され、脳が休まる暇がない", "20代・30代で、次のステージへの飛躍を模索している"].map((item, i) => (
                             <li key={i} className="flex items-start gap-3">
                                 <CheckCircle2 className="text-retreat-gold/70 mt-1 shrink-0" size={18} />
                                 <span className="text-sm tracking-wide">{item}</span>

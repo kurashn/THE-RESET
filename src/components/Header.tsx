@@ -14,7 +14,7 @@ export default function Header() {
                     <Link href="#access" className="hover:text-retreat-gold transition-colors">ACCESS</Link>
                 </nav>
                 <a
-                    href="https://tzvbxig2.autosns.app/line"
+                    href="https://lin.ee/nU6VjR0"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-retreat-gold hover:bg-retreat-gold-light text-retreat-dark px-6 py-2.5 rounded-sm font-medium transition-colors tracking-wide text-sm"

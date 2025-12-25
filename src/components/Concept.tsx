@@ -38,7 +38,7 @@ export default function Concept() {
                     24時間
                 </h2>
                 <p className="text-retreat-white/70 leading-loose mb-16 tracking-wide text-sm md:text-base">
-                    現代社会で過剰な情報と責任にさらされるあなたへ。<br />
+                    AI時代の加速する情報速度と責任に疲弊したあなたへ。<br />
                     チェンマイの豊かな自然と精神文化の中で、<br className="hidden md:inline" />
                     <strong className="text-retreat-white font-medium">「デジタルデトックス × 身体的負荷 × 内省」</strong>を組み合わせた、<br />
                     超短期的・高密度の精神回復プログラムを提供します。

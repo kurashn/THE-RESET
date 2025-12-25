@@ -43,7 +43,7 @@ export default function FloatingCTA() {
                         </button>
 
                         <a
-                            href="https://tzvbxig2.autosns.app/line"
+                            href="https://lin.ee/nU6VjR0"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="block w-full bg-[#06C755] text-white text-center py-4 rounded-full shadow-2xl font-bold tracking-wider relative overflow-hidden group"

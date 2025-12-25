@@ -36,7 +36,7 @@ export default function Program() {
             title: "Massage",
             subtitle: "伝統による癒やし",
             desc: "チェンマイ伝統の技術で、蓄積した身体の緊張を物理的に解きほぐす。",
-            image: "/images/program-massage.png",
+            image: "/images/program-massage-v2.png",
             hasImage: true
         },
         {
@@ -45,7 +45,7 @@ export default function Program() {
             subtitle: "現代の余白",
             desc: "チェンマイ特有の洗練された空間で、デトックス後のクリアな思考を整理する「余白」の時間。",
             icon: Coffee,
-            image: "/images/program-modern-margin.png",
+            image: "/images/program-coffee-v2.png",
             hasImage: true
         }
     ];

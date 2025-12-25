@@ -42,7 +42,7 @@ export default function Hero() {
                 >
                     <div className="flex flex-col md:flex-row items-center justify-center gap-6">
                         <a
-                            href="https://tzvbxig2.autosns.app/line"
+                            href="https://lin.ee/nU6VjR0"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="inline-block bg-[#06C755] text-white px-8 py-3 rounded-sm hover:bg-[#05b34c] hover:scale-105 transition-all duration-300 tracking-widest text-sm shadow-lg font-medium"
