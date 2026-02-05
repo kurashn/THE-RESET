@@ -37,10 +37,10 @@ export function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
-                    className="max-w-4xl mx-auto text-3xl md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.2]"
+                    className="max-w-4xl mx-auto text-[1.65rem] md:text-5xl lg:text-6xl font-bold tracking-tight text-white leading-[1.3]"
                 >
-                    情報疲れした脳を、
-                    <br className="hidden md:block" />
+                    情報疲れした脳を
+                    <br />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-100 to-gold-400 inline-block">
                         タイで強制<span className="inline-block">リセットする。</span>
                     </span>
