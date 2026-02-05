@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { Facebook, Instagram, Twitter } from "lucide-react";
 
 const footerLinks = [
     {
@@ -59,21 +58,6 @@ export function Footer() {
                     ))}
                 </div>
 
-                {/* Social */}
-                <div className="flex items-center gap-6 mt-12 pt-8 border-t border-white/5">
-                    <a href="#" className="hover:text-white transition-colors">
-                        <Instagram className="w-5 h-5" />
-                        <span className="sr-only">Instagram</span>
-                    </a>
-                    <a href="#" className="hover:text-white transition-colors">
-                        <Twitter className="w-5 h-5" />
-                        <span className="sr-only">Twitter</span>
-                    </a>
-                    <a href="#" className="hover:text-white transition-colors">
-                        <Facebook className="w-5 h-5" />
-                        <span className="sr-only">Facebook</span>
-                    </a>
-                </div>
             </div>
         </footer>
     );
