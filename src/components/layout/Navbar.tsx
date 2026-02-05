@@ -90,7 +90,7 @@ export function Navbar() {
                                 </Link>
                             ))}
                             <Button variant="premium" className="w-full mt-4" asChild>
-                                <Link href="https://line.me/R/ti/p/@example" target="_blank">
+                                <Link href="https://lin.ee/ZceS23g" target="_blank">
                                     公式LINE
                                 </Link>
                             </Button>
