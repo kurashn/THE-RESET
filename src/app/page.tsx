@@ -40,8 +40,8 @@ export default function Home() {
             <h2 className="text-3xl md:text-5xl font-bold mb-6 text-white">
               Ready to <span className="text-gold-400">Reset</span>?
             </h2>
-            <p className="text-slate-300 mb-10 max-w-xl mx-auto text-lg">
-              まずはLINEで最新情報を受け取るか、<br />リトリートプログラムの詳細をご覧ください。
+            <p className="text-slate-300 mb-10 max-w-lg mx-auto text-lg">
+              まずはLINEで最新情報を受け取るか、<br />リトリートプログラムの詳細を<span className="inline-block">ご覧ください。</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
