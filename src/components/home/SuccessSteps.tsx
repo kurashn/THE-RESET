@@ -44,7 +44,7 @@ export function SuccessSteps() {
                     {steps.map((step, index) => (
                         <div
                             key={index}
-                            className="flex flex-col md:flex-row gap-10 md:gap-20 items-start md:items-center relative group"
+                            className="flex flex-col md:flex-row gap-4 md:gap-20 items-start md:items-center relative group"
                         >
                             {/* Connector Line */}
                             {index !== steps.length - 1 && (
@@ -61,7 +61,7 @@ export function SuccessSteps() {
                             </div>
 
                             {/* Content */}
-                            <div className="flex-1 pt-4 md:pt-0">
+                            <div className="flex-1 md:pt-0">
                                 <h3 className="text-2xl md:text-4xl font-bold text-white mb-3 flex items-end gap-2 md:gap-4 whitespace-nowrap">
                                     {step.title} <span className="text-gold-500 text-sm md:text-lg font-bold tracking-wider mb-0.5 md:mb-1.5 opacity-90">/ {step.subtitle}</span>
                                 </h3>
