@@ -191,7 +191,7 @@ export default function RetreatsPage() {
                         <div className="inline-block px-4 py-1.5 mb-8 text-xs font-bold tracking-widest text-slate-950 uppercase bg-gold-500 rounded-full">
                             2026年6月 チェンマイにて開催
                         </div>
-                        <p className="text-slate-200 mb-10 text-[0.95rem] md:text-lg leading-relaxed">
+                        <p className="text-slate-200 mb-10 text-xs md:text-lg leading-relaxed">
                             現在、先行予約の受付準備を進めています。<br />
                             興味のある方は、まずはLINEにご登録ください。<br />
                             最新情報や優先案内をお届けします。

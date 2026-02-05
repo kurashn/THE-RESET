@@ -4,27 +4,8 @@ import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Section } from "@/components/Section";
 import { Button } from "@/components/ui/Button";
-import { Calendar, Users, ArrowRight } from "lucide-react";
+import { Users } from "lucide-react";
 import Image from "next/image";
-import Link from "next/link";
-import { getRecentArticles } from "@/lib/articles";
-
-const events = [
-    {
-        date: "2024.08.15",
-        title: "Thailand Networking Dinner",
-        location: "Sathorn, Thailand",
-        type: "Networking",
-    },
-    {
-        date: "2024.09.01",
-        title: "Mindfulness Morning Session",
-        location: "Lumphini Park",
-        type: "Activity",
-    },
-];
-
-const recentArticles = getRecentArticles(3);
 
 export default function CommunityPage() {
     return (
@@ -68,7 +49,7 @@ export default function CommunityPage() {
 
                             <div>
                                 <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-                                    日本人 × タイ人 コミュニティ
+                                    日本人 × タイ人<br className="md:hidden" /> コミュニティ
                                 </h2>
                                 <div className="h-1 w-24 bg-gradient-to-r from-transparent via-gold-500 to-transparent mx-auto rounded-full" />
                             </div>
@@ -99,67 +80,6 @@ export default function CommunityPage() {
                     </div>
                 </Section>
 
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 container mx-auto px-6 max-w-6xl mt-24 mb-32">
-                    {/* Upcoming Events */}
-                    <div>
-                        <div className="flex items-center justify-between mb-8">
-                            <h3 className="text-2xl font-bold text-white flex items-center gap-3">
-                                <div className="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center border border-white/10">
-                                    <Calendar className="w-4 h-4 text-gold-500" />
-                                </div>
-                                今後のイベント
-                            </h3>
-                            <a href="#" className="text-sm text-gold-400 hover:text-gold-300 flex items-center gap-1">View All <ArrowRight className="w-3 h-3" /></a>
-                        </div>
-
-                        <div className="space-y-4">
-                            {events.map((event, i) => (
-                                <div key={i} className="group p-6 rounded-2xl bg-slate-900/50 border border-white/5 hover:border-gold-500/30 hover:bg-slate-900 transition-all duration-300 cursor-pointer">
-                                    <div className="flex justify-between items-start mb-2">
-                                        <div className="text-gold-400 text-sm font-bold tracking-wide">{event.date}</div>
-                                        <span className="px-2.5 py-1 rounded-md bg-slate-800 text-[10px] font-medium text-slate-300 border border-white/5 uppercase tracking-wider">{event.type}</span>
-                                    </div>
-                                    <h4 className="text-xl font-bold text-white mb-2 group-hover:text-gold-200 transition-colors">{event.title}</h4>
-                                    <div className="flex items-center gap-2 text-sm text-slate-400">
-                                        <div className="w-1.5 h-1.5 rounded-full bg-slate-600" />
-                                        <span>{event.location}</span>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-
-                    {/* Articles */}
-                    <div>
-                        <div className="flex items-center justify-between mb-8">
-                            <h3 className="text-2xl font-bold text-white flex items-center gap-3">
-                                <div className="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center border border-white/10">
-                                    <span className="text-gold-500 font-serif font-bold italic">A</span>
-                                </div>
-                                ジャーナル
-                            </h3>
-                            <Link href="/articles" className="text-sm text-gold-400 hover:text-gold-300 flex items-center gap-1">View All <ArrowRight className="w-3 h-3" /></Link>
-                        </div>
-
-                        <div className="space-y-4">
-                            {recentArticles.map((article, i) => (
-                                <Link href={`/articles/${article.slug}`} key={i} className="group cursor-pointer block p-6 rounded-2xl bg-slate-900/50 border border-white/5 hover:bg-slate-900 hover:border-white/10 transition-all duration-300">
-                                    <div className="flex items-center justify-between mb-3">
-                                        <span className="text-[10px] font-bold px-2 py-1 rounded bg-gold-500/10 text-gold-400 border border-gold-500/20 uppercase tracking-widest">{article.category}</span>
-                                        <span className="text-slate-500 text-xs font-medium">{article.date}</span>
-                                    </div>
-                                    <h4 className="text-lg font-bold text-white group-hover:text-gold-300 transition-colors mb-4 leading-snug">
-                                        {article.title}
-                                    </h4>
-                                    <div className="flex items-center text-sm text-slate-400 font-medium group-hover:translate-x-1 transition-transform group-hover:text-white">
-                                        続きを読む <ArrowRight className="w-4 h-4 ml-1" />
-                                    </div>
-                                </Link>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-
                 {/* CTA */}
                 <Section className="relative py-32 text-center overflow-hidden">
                     {/* Background Image */}
@@ -181,7 +101,7 @@ export default function CommunityPage() {
                         <div className="inline-block px-4 py-1.5 mb-8 text-xs font-bold tracking-widest text-slate-950 uppercase bg-gold-500 rounded-full">
                             2026年6月 開催予定
                         </div>
-                        <p className="text-slate-200 mb-10 text-[0.95rem] md:text-lg leading-relaxed">
+                        <p className="text-slate-200 mb-10 text-xs md:text-lg leading-relaxed">
                             現在、先行予約の受付準備を進めています。<br />
                             興味のある方は、まずはLINEにご登録ください。<br />
                             最新情報や優先案内をお届けします。
