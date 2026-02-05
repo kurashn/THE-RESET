@@ -45,8 +45,8 @@ export default function RetreatsPage() {
                     </div>
 
                     <div className="relative z-10 pt-20">
-                        <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white tracking-tight drop-shadow-lg">
-                            リトリートプログラム
+                        <h1 className="text-[2.25rem] md:text-6xl font-bold mb-6 text-white tracking-tight drop-shadow-lg">
+                            <span className="inline-block">リトリートプログラム</span>
                         </h1>
                         <p className="text-lg md:text-xl text-slate-200 max-w-2xl mx-auto leading-relaxed drop-shadow-md font-medium">
                             日常のあらゆるノイズから離れ、<br className="hidden md:inline" />
