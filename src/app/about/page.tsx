@@ -151,7 +151,7 @@ export default function AboutPage() {
                             最新情報や優先案内をお届けします。
                         </p>
                         <Button variant="premium" size="lg" className="h-14 px-10 text-lg rounded-full shadow-gold-500/20 shadow-lg hover:shadow-gold-500/40" asChild>
-                            <a href="https://line.me/R/ti/p/@example">LINEで最新情報を受け取る</a>
+                            <a href="https://lin.ee/ZceS23g">LINEで最新情報を受け取る</a>
                         </Button>
                     </div>
                 </Section>

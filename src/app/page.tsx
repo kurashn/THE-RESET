@@ -51,7 +51,7 @@ export default function Home() {
                 プログラムを見る
               </a>
               <a
-                href="https://line.me/R/ti/p/@example"
+                href="https://lin.ee/ZceS23g"
                 className="inline-flex h-12 items-center justify-center rounded-full border border-white/30 bg-white/10 backdrop-blur-md px-8 text-base font-bold text-white shadow-sm transition-all hover:bg-white/20 hover:scale-105 hover:border-white/50"
               >
                 LINEで相談する

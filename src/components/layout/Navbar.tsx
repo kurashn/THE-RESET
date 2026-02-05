@@ -54,7 +54,7 @@ export function Navbar() {
                         </Link>
                     ))}
                     <Button variant="premium" size="sm" asChild>
-                        <Link href="https://line.me/R/ti/p/@example" target="_blank">
+                        <Link href="https://lin.ee/ZceS23g" target="_blank">
                             公式LINE
                         </Link>
                     </Button>
