@@ -42,7 +42,7 @@ export function Hero() {
                     情報疲れした脳を、
                     <br className="hidden md:block" />
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-300 via-gold-100 to-gold-400 inline-block">
-                        タイで強制リセットする。
+                        タイで強制<span className="inline-block">リセットする。</span>
                     </span>
                 </motion.h1>
 

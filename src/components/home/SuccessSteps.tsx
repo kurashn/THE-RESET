@@ -6,19 +6,19 @@ const steps = [
     {
         number: "01",
         title: "TRUST",
-        subtitle: "信頼を稼ぐ",
+        subtitle: "信頼を築く",
         description: "現地を知り尽くしたパートナーによる厳選された情報と案内。観光客にはアクセスできない「本物のタイ」を提供します。",
     },
     {
         number: "02",
         title: "EXPERIENCE",
-        subtitle: "体験を売る",
+        subtitle: "最高の体験",
         description: "スマホ没収、サウナ、瞑想。24時間〜3日間の強制デジタルデトックスで、脳と身体を完全にリセットします。",
     },
     {
         number: "03",
         title: "COMMUNITY",
-        subtitle: "仲間を作る",
+        subtitle: "繋がる仲間",
         description: "プログラム修了者限定のコミュニティ。日本人と現地のメンバーが交わり、新たな価値が生まれる場へ。",
     },
 ];

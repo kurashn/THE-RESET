@@ -51,7 +51,7 @@ export function Target() {
             <div className="text-center mb-20 relative z-10">
                 <span className="text-gold-500 font-bold tracking-widest text-sm uppercase mb-3 block">Check List</span>
                 <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-                    こんな悩みはありませんか？
+                    こんな悩みは<span className="inline-block">ありませんか？</span>
                 </h2>
                 <p className="text-slate-400 text-lg">
                     一つでも当てはまるなら、脳の「リセット」が必要です。
