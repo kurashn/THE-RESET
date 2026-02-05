@@ -29,7 +29,7 @@ export default function ArticlesPage() {
 
                     <div className="relative z-10 pt-20">
                         <h1 className="text-4xl md:text-6xl font-bold mb-6 text-white tracking-tight drop-shadow-lg">
-                            記事・コラム
+                            ジャーナル
                         </h1>
                         <p className="text-lg md:text-xl text-slate-200 max-w-2xl mx-auto leading-relaxed drop-shadow-md font-medium">
                             ウェルネス、ビジネス、そしてタイの深い魅力について。<br />
@@ -38,11 +38,11 @@ export default function ArticlesPage() {
                     </div>
                 </Section>
 
-                <Section className="py-20" containerClassName="px-0 md:px-6">
+                <Section className="py-20" containerClassName="px-5 md:px-6">
                     <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-12 md:gap-10">
                         {articles.map((article) => (
                             <Link href={`/articles/${article.slug}`} key={article.slug} className="group block h-full">
-                                <div className="bg-slate-900 md:rounded-2xl overflow-hidden border-y md:border border-white/5 hover:border-gold-500/30 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl shadow-black/20 h-full flex flex-col">
+                                <div className="bg-slate-900 rounded-2xl overflow-hidden border border-white/5 hover:border-gold-500/30 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl shadow-black/20 h-full flex flex-col">
                                     <div className="relative h-48 overflow-hidden">
                                         <div className="absolute top-4 left-4 z-10">
                                             <span className="px-3 py-1 rounded-full bg-slate-950/80 backdrop-blur-sm border border-white/10 text-gold-400 text-xs font-bold uppercase tracking-wider">
