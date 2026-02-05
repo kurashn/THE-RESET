@@ -19,8 +19,8 @@ const notoSansJP = Noto_Sans_JP({
 });
 
 export const metadata: Metadata = {
-  title: "THE RESET - Bangkok Digital Detox",
-  description: "Reclaim your focus. A digital detox retreat in Bangkok for executives.",
+  title: "THE RESET - Digital Detox Retreat",
+  description: "Reclaim your focus. A digital detox retreat in Thailand for executives.",
 };
 
 export default function RootLayout({

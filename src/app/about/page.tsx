@@ -16,7 +16,7 @@ export default function AboutPage() {
                     {/* Hero Background Image */}
                     <div className="absolute inset-0 z-0">
                         <Image
-                            src="/about_hero_cover.png"
+                            src="/about_hero_v2.png"
                             alt="The Reset Cover"
                             fill
                             className="object-cover opacity-60"
