@@ -21,8 +21,10 @@ export function Navbar() {
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScrolled(window.scrollY > 50);
+            setIsScrolled(window.scrollY > 20);
         };
+        // Check on mount
+        handleScroll();
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
@@ -32,7 +34,7 @@ export function Navbar() {
             className={cn(
                 "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
                 isScrolled
-                    ? "py-4 glass border-b border-white/10 dark:glass-dark"
+                    ? "py-4 glass border-b border-t-0 border-white/10 dark:glass-dark"
                     : "py-6 bg-transparent"
             )}
         >

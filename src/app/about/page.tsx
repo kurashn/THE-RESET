@@ -22,7 +22,7 @@ export default function AboutPage() {
                             className="object-cover opacity-60"
                             priority
                         />
-                        <div className="absolute inset-0 bg-gradient-to-b from-slate-950/30 via-slate-950/60 to-slate-950" />
+                        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-slate-950/60 to-slate-950" />
                     </div>
 
                     <div className="relative z-10 pt-20">
