@@ -136,7 +136,7 @@ export default function CommunityPage() {
                                 <div className="w-8 h-8 rounded-lg bg-slate-800 flex items-center justify-center border border-white/10">
                                     <span className="text-gold-500 font-serif font-bold italic">A</span>
                                 </div>
-                                記事・コラム
+                                ジャーナル
                             </h3>
                             <Link href="/articles" className="text-sm text-gold-400 hover:text-gold-300 flex items-center gap-1">View All <ArrowRight className="w-3 h-3" /></Link>
                         </div>
@@ -181,7 +181,7 @@ export default function CommunityPage() {
                         <div className="inline-block px-4 py-1.5 mb-8 text-xs font-bold tracking-widest text-slate-950 uppercase bg-gold-500 rounded-full">
                             2026年6月 開催予定
                         </div>
-                        <p className="text-slate-200 mb-10 text-lg leading-relaxed">
+                        <p className="text-slate-200 mb-10 text-[0.95rem] md:text-lg leading-relaxed">
                             現在、先行予約の受付準備を進めています。<br />
                             興味のある方は、まずはLINEにご登録ください。<br />
                             最新情報や優先案内をお届けします。
