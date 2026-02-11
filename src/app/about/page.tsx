@@ -77,52 +77,6 @@ export default function AboutPage() {
                     </div>
                 </Section>
 
-                {/* Team */}
-                <Section className="bg-slate-900/50 border-y border-white/5 py-32 mt-10">
-                    <div className="text-center mb-20">
-                        <span className="text-gold-500 font-bold tracking-widest text-sm uppercase mb-2 block">Our Team</span>
-                        <h2 className="text-3xl md:text-5xl font-bold text-white mb-6">
-                            チームメンバー
-                        </h2>
-                        <p className="text-slate-400 max-w-xl mx-auto">
-                            各分野のプロフェッショナルが、あなたのリセットの旅をサポートします。
-                        </p>
-                    </div>
-
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-6xl mx-auto px-6">
-                        {[
-                            {
-                                role: "Founder",
-                                title: "代表 / プロデューサー",
-                                desc: "自身の燃え尽き症候群の経験から、デジタルデトックスの重要性を痛感し起業。日本のビジネスパーソンや現代人の課題を熟知。",
-                                initial: "F"
-                            },
-                            {
-                                role: "Local Partner",
-                                title: "現地パートナー",
-                                desc: "タイの主要なコミュニティ、病院、ウェルネス施設との強固なコネクションを持つ現地のエキスパート。",
-                                initial: "L"
-                            },
-                            {
-                                role: "Mindfulness Coach",
-                                title: "認定インストラクター",
-                                desc: "科学的アプローチに基づいた瞑想と休息法を指導。脳のパフォーマンス最大化をサポート。",
-                                initial: "M"
-                            }
-                        ].map((member, i) => (
-                            <div key={i} className="group p-8 rounded-3xl bg-slate-900 border border-white/5 hover:border-gold-500/20 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-black/20">
-                                <div className="w-24 h-24 mx-auto rounded-full bg-slate-800 mb-8 border border-white/10 flex items-center justify-center text-3xl font-serif text-gold-500/50 group-hover:text-gold-400 group-hover:scale-110 transition-all duration-300 shadow-inner">
-                                    {member.initial}
-                                </div>
-                                <h3 className="text-xl font-bold text-white mb-1 group-hover:text-gold-400 transition-colors">{member.role}</h3>
-                                <p className="text-gold-500 text-sm font-medium mb-4 tracking-wide uppercase font-xs">{member.title}</p>
-                                <p className="text-slate-400 text-sm leading-relaxed">
-                                    {member.desc}
-                                </p>
-                            </div>
-                        ))}
-                    </div>
-                </Section>
 
                 {/* CTA */}
                 <Section className="relative py-32 text-center overflow-hidden">

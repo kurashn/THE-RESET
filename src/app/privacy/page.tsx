@@ -58,7 +58,7 @@ export default function PrivacyPage() {
                             </p>
                             <p className="mt-4">
                                 運営：THE RESET<br />
-                                Eメールアドレス：contact@example.com
+                                Eメールアドレス：shunknomad@gmail.com
                             </p>
                         </div>
                     </div>
