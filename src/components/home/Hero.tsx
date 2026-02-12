@@ -30,7 +30,7 @@ export function Hero() {
                     className="mb-6"
                 >
                     <span className="inline-block px-6 py-2 text-sm md:text-base font-bold tracking-wider text-slate-950 uppercase bg-gradient-to-r from-gold-300 via-gold-100 to-gold-400 rounded-full shadow-[0_0_20px_rgba(212,175,55,0.3)] animate-pulse">
-                        2026.06.06 - 07 開 催 決 定
+                        2026.06.27 - 28 開 催 決 定
                     </span>
                 </motion.div>
 
