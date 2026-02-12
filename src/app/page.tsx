@@ -41,7 +41,7 @@ export default function Home() {
               Ready to <span className="text-gold-400">Reset</span>?
             </h2>
             <p className="text-slate-300 mb-10 max-w-lg mx-auto text-lg">
-              まずはLINEで最新情報を受け取るか、<br />リトリートプログラムの詳細を<span className="inline-block">ご覧ください。</span>
+              まずはLINEで先行案内を受け取るか、<br />リトリートプログラムの詳細を<span className="inline-block">ご覧ください。</span>
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
@@ -54,7 +54,7 @@ export default function Home() {
                 href="https://lin.ee/ZceS23g"
                 className="inline-flex h-12 items-center justify-center rounded-full border border-white/30 bg-white/10 backdrop-blur-md px-8 text-base font-bold text-white shadow-sm transition-all hover:bg-white/20 hover:scale-105 hover:border-white/50"
               >
-                LINEで相談する
+                LINEで先行案内を受け取る
               </a>
             </div>
           </div>

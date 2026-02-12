@@ -97,7 +97,7 @@ export default function AboutPage() {
                             <span className="text-gold-400">最高の休息</span>を体験しませんか？
                         </h2>
                         <div className="inline-block px-4 py-1.5 mb-8 text-xs font-bold tracking-widest text-slate-950 uppercase bg-gold-500 rounded-full">
-                            2026年6月 開催予定
+                            2026.06.06 - 07 開催決定
                         </div>
                         <p className="text-slate-200 mb-10 text-xs md:text-lg leading-relaxed">
                             現在、先行予約の受付準備を進めています。<br />
@@ -105,7 +105,7 @@ export default function AboutPage() {
                             最新情報や優先案内をお届けします。
                         </p>
                         <Button variant="premium" size="lg" className="h-14 px-10 text-lg rounded-full shadow-gold-500/20 shadow-lg hover:shadow-gold-500/40" asChild>
-                            <a href="https://lin.ee/ZceS23g">LINEで最新情報を受け取る</a>
+                            <a href="https://lin.ee/ZceS23g">LINEで先行案内を受け取る</a>
                         </Button>
                     </div>
                 </Section>
