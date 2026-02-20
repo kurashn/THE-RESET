@@ -15,7 +15,6 @@ const plans = [
             </>
         ),
         duration: "1泊2日 (2026.06.27 - 28)",
-        price: "70,000円~",
         description: "デジタルデバイスから離れ、心身を深くリセットする2日間。",
         features: [
             "スマホ・PC デジタルデバイス預かり",
@@ -78,9 +77,6 @@ export default function RetreatsPage() {
                                     <p className="text-base text-slate-400 mb-8 leading-relaxed">
                                         {plan.description}
                                     </p>
-                                    <div className="text-3xl md:text-4xl font-bold text-white tracking-tight">
-                                        {plan.price}
-                                    </div>
                                 </div>
 
                                 <div className="hidden md:block w-px bg-gradient-to-b from-transparent via-white/10 to-transparent mx-8" />
