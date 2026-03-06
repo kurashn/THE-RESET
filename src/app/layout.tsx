@@ -28,6 +28,30 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  // メンテナンスモードの切り替え (true でメンテナンス画面を表示)
+  const isMaintenanceMode = true;
+
+  if (isMaintenanceMode) {
+    return (
+      <html lang="ja">
+        <body className={`${inter.variable} ${notoSansJP.variable} min-h-screen bg-slate-950 flex flex-col items-center justify-center text-white p-6 font-sans antialiased`}>
+          <div className="text-center space-y-6 max-w-md">
+            <h1 className="text-2xl md:text-3xl font-bold tracking-wider text-gold-400">
+              MAINTENANCE
+            </h1>
+            <div className="space-y-2 text-slate-300">
+              <p>現在、サイトのメンテナンスを行っております。</p>
+              <p>完了まで今しばらくお待ちください。</p>
+            </div>
+            <div className="pt-8 block">
+              <span className="text-xs tracking-widest text-slate-500 font-inter">THE RESET</span>
+            </div>
+          </div>
+        </body>
+      </html>
+    );
+  }
+
   return (
     <html lang="ja" className="scroll-smooth">
       <body
